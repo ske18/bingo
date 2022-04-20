@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vidmot.SceneController">
+   <children>
+      <Label layoutX="450.0" layoutY="82.0" rotate="18.0" text="Veldu leik">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="fxEinn" layoutX="38.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToSceneGerd" text="Velja1" AnchorPane.leftAnchor="38.0" />
+      <ImageView fitHeight="94.0" fitWidth="90.0" layoutX="19.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="19.0">
+         <image>
+            <Image url="@Myndir/Diagonal.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="193.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToSceneGerd" text="Velja2" />
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="170.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="170.0">
+         <image>
+            <Image url="@Myndir/Xxx.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="353.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToSceneGerd" text="Velja3" />
+      <ImageView fitHeight="94.0" fitWidth="90.0" layoutX="336.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="181.67320251464844">
+         <image>
+            <Image url="@Myndir/Rammi.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="510.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToSceneGerd" text="Velja4" />
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="489.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="21.1351318359375">
+         <image>
+            <Image url="@Myndir/Allt.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="2.0" layoutY="208.0" text="Önnur hvor hornalínan" />
+      <Label layoutX="173.0" layoutY="208.0" text="Báðar hornalínur" />
+      <Label layoutX="358.0" layoutY="208.0" text="Rammi" />
+      <Label layoutX="503.0" layoutY="208.0" text="Allt spjaldið" />
+      <ImageView fitHeight="100.0" fitWidth="337.0" layoutX="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bingo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

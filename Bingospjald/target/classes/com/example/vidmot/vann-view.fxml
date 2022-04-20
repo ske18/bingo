@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="fxRoot" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vidmot.VannController">
+   <children>
+      <Button layoutX="398.0" layoutY="326.0" mnemonicParsing="false" onAction="#switchToSceneStart" text="Nýr leikur" />
+      <Button layoutX="486.0" layoutY="326.0" mnemonicParsing="false" onAction="#closeHandler" text="Hætta" />
+      <Label layoutX="67.0" layoutY="173.0" rotate="-31.5" text="Þú vannst!">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ImageView fx:id="fxBikar" fitHeight="103.0" fitWidth="120.0" layoutX="256.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gold-trophy-1030x824.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
